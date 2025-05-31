@@ -4,12 +4,6 @@ GO
 USE PartnerProductsDB;
 GO
 
--- Таблица: Типы материалов
-CREATE TABLE [Типы материалов] (
-    [Тип материала] NVARCHAR(50) PRIMARY KEY,
-    [Процент брака материала] FLOAT NOT NULL
-);
-
 -- Таблица: Типы продукции
 CREATE TABLE [Типы продукции] (
     [Тип продукции] NVARCHAR(50) PRIMARY KEY,
